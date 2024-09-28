@@ -1,6 +1,8 @@
-# FlavorWave
+# Catch The Ball
 
-Welcome to FlavorWave, the ultimate recipe hub for young adults! Discover easy, delicious recipes that make cooking fun and accessible. From quick weeknight dinners to impressive dishes for special occasions, FlavorWave has something for everyone. Join our community and start your culinary adventure today!
+Welcome to Catch The Ball,
+
+In this simple yet fun game, players control a character or object tasked with catching falling balls. The balls drop from the top of the screen at increasing speeds, and the player must move left or right to catch them before they hit the ground. Each successful catch earns points, while missing a ball reduces the player’s score or ends the game. The goal is to catch as many balls as possible and achieve the highest score. As the game progresses, the difficulty increases with faster ball drops!
 
 ### Link to live site : [FlavorWave](https://ethanpeters96.github.io/FlavorWave/)
 
@@ -8,46 +10,37 @@ Welcome to FlavorWave, the ultimate recipe hub for young adults! Discover easy, 
 
 ### Initial Discussion
 
-FlavorWave is a online recipe page that is focused towards young adults who are looking to step up there cooking game from home and create easy yet tasty meals, without breaking a sweat.
+Catch The Ball is an entertaining online game designed for all ages, offering a simple yet enjoyable gameplay experience. It begins at a relaxed pace but gradually escalates into a fast-paced challenge as the game progresses.
 
 ### User Stories
 
 #### Client Goals
 
--   To be able to view the site on a range of devices.
--   To make it easy for users to find and follow recipes.
--   To allow people to contact FlavorWave to ask further questions or suggest cooking recommendations etc.
+-   To be able to play the game on a range of devices.
+-   To make it easy for users to play the game.
 
 #### First Time User Goals
 
--   I want to find out what FlavorWave is about and what i can do.
+-   I want to clearly understand what to do.
 -   I want to be able to navigate the site easily.
--   I want to see all the social media links.
--   I want to be able to view the site and recipes on any device I am using.
+-   I want to be able to play the game on any device I am using.
 
 #### Returning User Goals
 
--   I want to easily navigate to my favourite recipes.
--   I want to keep up to date with any new social media they post.
+-   I want to beat my high-score .
+-   I want to show my friends the game.
 
 ## Design
 
 ### Colour Scheme
 
-I used the site [coolors](https://coolors.co/palette/ccd5ae-e9edc9-fefae0-faedcd-d4a373) for the color scheme, I think these colors complement the purpose of the site well.
-
-### Imagery
-
-I have used high quality images of food to compliment the site, all my images are sourced from [unsplash](https://unsplash.com/images/stock).
+I used the site [coolors](https://coolors.co/palette/e7ecef-274c77-6096ba-a3cef1-8b8c89) for the color scheme, I think these colors complement the purpose of the site well.
 
 ### Favicon
 
 I used [Favicon](https://favicon.io/) to create my favicon.
 
 ### Wireframes
-
-I initially started drawing my wireframes and quickly realized that i was over complicating them.  
-I then took a simpler approach to the remaining wireframes.
 
 I used [Balsamiq](https://balsamiq.com/) for my wireframes.
 
@@ -69,9 +62,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes.
 
 ## Features
 
-The website is comprised of four main pages, all are accessible from the navigation menu (home page, recipes page, about page & contact page).  
-And two secondary pages. (tacos page & carbonara page).  
-Lastly two extra pages. (404 page & thank-you page).
+The web game consists of one main page
 
 #### All Pages on the website have:
 
