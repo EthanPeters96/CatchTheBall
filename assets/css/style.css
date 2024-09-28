@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #87ceeb;
+    overflow: hidden;
+    border: 2px solid #333;
+}
+
+.basket {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    height: 20px;
+    background-color: #333;
+    left: 160px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff6347;
+    border-radius: 50%;
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.level {
+    position: absolute;
+    top: 40px; /* Adjust this value as needed */
+    left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.missed {
+    position: absolute;
+    top: 70px; /* Adjust this value as needed */
+    left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
