@@ -1,3 +1,5 @@
+/********* main body styling *********/
+
 body {
     margin: 0;
     padding: 0;
@@ -8,6 +10,8 @@ body {
     height: 100vh;
     background-color: #565656;
 }
+
+/********* title and credits styling *********/
 
 .heading {
     position: absolute;
@@ -31,8 +35,10 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
+    margin-bottom: 20px;
     color: black;
 }
+/********* game container styling *********/
 
 .game-container {
     position: relative;
@@ -70,7 +76,7 @@ body {
 
 .level {
     position: absolute;
-    top: 40px; /* Adjust this value as needed */
+    top: 40px;
     left: 10px;
     font-size: 18px;
     font-weight: bold;
@@ -78,7 +84,7 @@ body {
 
 .missed {
     position: absolute;
-    top: 70px; /* Adjust this value as needed */
+    top: 70px;
     left: 10px;
     font-size: 18px;
     font-weight: bold;
