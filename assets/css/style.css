@@ -52,7 +52,23 @@ body {
     color: #000000;
     font-size: 18px;
     margin-left: 20px;
+}
+
+/********* start button styling *********/
+.game-wrapper {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#startButton {
+    position: relative;
+    width: 100%;
     text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
 }
 
 /********* game container styling *********/

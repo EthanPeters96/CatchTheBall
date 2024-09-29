@@ -3,6 +3,7 @@ let scoreDisplay = document.getElementById("score");
 let levelDisplay = document.getElementById("level"); // Level display
 let container = document.querySelector(".game-container");
 let missedBallsDisplay = document.getElementById("missed"); // Missed balls display
+let startButton = document.getElementById("startButton");
 let missedBalls = 0; // Variable to track missed balls
 let score = 0;
 let level = 1; // Level variable
@@ -120,6 +121,20 @@ setInterval(function () {
     }
 }, 100);
 
-// Start the game initially
-startGame();
-requestAnimationFrame(moveBasket);
+// Start Button
+startButton.addEventListener("click", startGame);
+
+function startGame() {
+    // Initialize variables
+    missedBalls = 0;
+    score = 0;
+    level = 1;
+    ballSpeed = 3;
+    basketSpeed = 5;
+    basketDirection = 0;
+    ballArray = [];
+
+    // Start the game
+    moveBasket();
+    ballCreationInterval = setInterval(createBall, 1000); // Create a new ball every second
+}
