@@ -7,7 +7,7 @@ let missedBalls = 0; // Variable to track missed balls
 let score = 0;
 let level = 1; // Level variable
 let ballSpeed = 3;
-let basketSpeed = 3; // Initial basket speed
+let basketSpeed = 5; // Initial basket speed
 let basketDirection = 0; // 0 for no movement, -1 for left, 1 for right
 let ballCreationInterval;
 let ballArray = [];
