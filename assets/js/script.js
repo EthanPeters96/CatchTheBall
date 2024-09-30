@@ -3,12 +3,11 @@ let scoreDisplay = document.getElementById("score");
 let levelDisplay = document.getElementById("level"); // Level display
 let container = document.querySelector(".game-container");
 let missedBallsDisplay = document.getElementById("missed"); // Missed balls display
-let startButton = document.getElementById("startButton");
 let missedBalls = 0; // Variable to track missed balls
 let score = 0;
 let level = 1; // Level variable
 let ballSpeed = 3;
-let basketSpeed = 5; // Initial basket speed
+let basketSpeed = 3; // Initial basket speed
 let basketDirection = 0; // 0 for no movement, -1 for left, 1 for right
 let ballCreationInterval;
 let ballArray = [];
@@ -56,8 +55,12 @@ function createBall() {
                 missedBallsDisplay.innerText = "Missed: " + missedBalls; // Update missed balls display
                 if (missedBalls >= 10) {
                     // If 10 balls are missed
+                    level = 1; // Reset level to 1
+                    levelDisplay.innerText = "Level: " + level; // Update level display
+                    ballSpeed = 3; // Reset ball speed
+                    basketSpeed = 3; // Reset basket speed
                     resetGame(); // End the current game and start a new one
-                    alert("Game Over! You missed 10 balls.");
+                    alert("Game Over! You missed 10 balls. Starting again from level 1.");
                 }
             }
         } else {
@@ -101,7 +104,7 @@ function resetGame() {
 
 // Game Win Condition
 setInterval(function () {
-    if (score >= 10) {
+    if (score >= 5) {
         level++; // Increase level
         levelDisplay.innerText = "Level: " + level; // Update level display
         if (level > 10) {
@@ -121,20 +124,6 @@ setInterval(function () {
     }
 }, 100);
 
-// Start Button
-startButton.addEventListener("click", startGame);
-
-function startGame() {
-    // Initialize variables
-    missedBalls = 0;
-    score = 0;
-    level = 1;
-    ballSpeed = 3;
-    basketSpeed = 5;
-    basketDirection = 0;
-    ballArray = [];
-
-    // Start the game
-    moveBasket();
-    ballCreationInterval = setInterval(createBall, 1000); // Create a new ball every second
-}
+// Start the game initially
+startGame();
+requestAnimationFrame(moveBasket);
