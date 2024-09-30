@@ -132,13 +132,16 @@ setInterval(function () {
 }, 100);
 
 // Start the game when the start button is clicked
-startButton.addEventListener("click", function () {
-    if (startButton.innerText === "Start Game") {
-        startGame();
-        startButton.innerText = "Stop Game"; // Change button text to "Stop Game"
-    } else {
-        resetGame();
-        startButton.innerText = "Start Game"; // Change button text back to "Start Game"
-    }
+document.addEventListener("DOMContentLoaded", function () {
+    const startButton = document.getElementById("startButton");
+    startButton.addEventListener("click", function () {
+        if (startButton.innerText === "Start Game") {
+            startGame();
+            startButton.innerText = "Stop Game"; // Change button text to "Stop Game"
+        } else {
+            resetGame();
+            startButton.innerText = "Start Game"; // Change button text to "Start Game"
+        }
+    });
 });
 requestAnimationFrame(moveBasket);
