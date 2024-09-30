@@ -11,6 +11,7 @@ let basketSpeed = 3; // Initial basket speed
 let basketDirection = 0; // 0 for no movement, -1 for left, 1 for right
 let ballCreationInterval;
 let ballArray = [];
+let startButton = document.getElementById("startButton");
 
 // Basket Movement
 document.addEventListener("keydown", function (event) {
@@ -61,6 +62,7 @@ function createBall() {
                     basketSpeed = 3; // Reset basket speed
                     resetGame(); // End the current game and start a new one
                     alert("Game Over! You missed 10 balls. Starting again from level 1.");
+                    startButton.innerText = "Start Game"; // Change button text back to "Start Game"
                 }
             }
         } else {
@@ -99,7 +101,12 @@ function resetGame() {
     scoreDisplay.innerText = "Score: " + score;
     missedBalls = 0; // Reset missed balls count
     missedBallsDisplay.innerText = "Missed: " + missedBalls; // Reset missed balls display
-    startGame(); // Start the game again after resetting
+
+    // Reset basket to center
+    let containerWidth = container.offsetWidth;
+    let basketWidth = basket.offsetWidth;
+    let centerPosition = (containerWidth - basketWidth) / 2;
+    basket.style.left = centerPosition + "px";
 }
 
 // Game Win Condition
@@ -124,6 +131,14 @@ setInterval(function () {
     }
 }, 100);
 
-// Start the game initially
-startGame();
+// Start the game when the start button is clicked
+startButton.addEventListener("click", function () {
+    if (startButton.innerText === "Start Game") {
+        startGame();
+        startButton.innerText = "Stop Game"; // Change button text to "Stop Game"
+    } else {
+        resetGame();
+        startButton.innerText = "Start Game"; // Change button text back to "Start Game"
+    }
+});
 requestAnimationFrame(moveBasket);
