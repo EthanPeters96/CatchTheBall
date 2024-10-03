@@ -38,7 +38,7 @@ function moveBasket() {
     requestAnimationFrame(moveBasket);
 }
 
-// Falling Balls
+// Create Ball
 function createBall() {
     let ball = document.createElement("div");
     ball.classList.add("ball");
@@ -88,7 +88,7 @@ function startGame() {
     ballCreationInterval = setInterval(createBall, 1000);
 }
 
-// Stop the game, clear all balls and reset variables
+// Reset Game
 function resetGame() {
     clearInterval(ballCreationInterval);
     ballArray.forEach((ball) => {
@@ -132,7 +132,7 @@ setInterval(function () {
     }
 }, 100);
 
-// Start the game when the start button is clicked
+// Start the game when button is clicked
 document.addEventListener("DOMContentLoaded", function () {
     const startButton = document.getElementById("startButton");
     startButton.addEventListener("click", function () {

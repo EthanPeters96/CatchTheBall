@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/instructions.css" />
         <title>Catch the Ball</title>
         <meta name="description" content="Catch the ball is a game made for everyone" />
         <meta name="keywords" content="game, arcade, fun, young, old, enjoy" />
@@ -16,21 +16,16 @@
     <body>
         <!--title-->
         <h1 class="heading">Catch the Ball 🏀</h1>
-        <!--game wrapper-->
-        <div class="game-wrapper">
-            <!--game container-->
-            <div class="game-container">
-                <div id="basket" class="basket"></div>
-                <div id="score" class="score">Score: 0</div>
-                <div id="level" class="level">Level: 1</div>
-                <div id="missed" class="missed">Missed: 0</div>
-            </div>
-
-            <!--start button-->
-            <button id="startButton">Start Game</button>
-            <button class="btn" id="instructions-button">
-                <a href="assets/js/instructions.html">Instructions</a>
-            </button>
+        <div>
+            <!--instructions-->
+            <h2>Instructions</h2>
+            <ul>
+                <li>Click the start button to start the game</li>
+                <li>Use the left and right arrow keys to move the basket</li>
+                <li>Catch the ball to score points</li>
+                <li>Miss the ball and you will lose a life</li>
+                <li>Game is over when you lose all your lives</li>
+            </ul>
         </div>
         <!--credit content-->
         <footer>
@@ -39,6 +34,5 @@
                 <a href="https://github.com/EthanPeters96" target="_blank">Ethan Peters</a>
             </p>
         </footer>
-        <script src="assets/js/script.js"></script>
     </body>
 </html>
