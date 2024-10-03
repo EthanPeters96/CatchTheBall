@@ -39,21 +39,6 @@ body {
     color: black;
 }
 
-/********* instructions styling *********/
-
-.instructions {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 500px;
-    padding: 50px;
-    background-color: #565656;
-    color: #000000;
-    font-size: 18px;
-    margin-left: 20px;
-}
-
 /********* start button styling *********/
 .game-wrapper {
     position: relative;
@@ -126,7 +111,7 @@ body {
     font-weight: bold;
 }
 
-/********* istructions styling *********/
+/********* instructions button styling *********/
 
 #instructions-button {
     position: relative;
