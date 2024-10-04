@@ -126,6 +126,7 @@ body {
 #instructions-button a {
     color: white;
     text-decoration: none;
+    font-size: 14px;
 }
 
 /********* media query *********/
@@ -144,12 +145,18 @@ body {
 
 @media screen and (max-width: 768px) {
     .heading {
-        display: none;
+        font-size: 35px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .game-wrapper {
-        width: 50%;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .game-wrapper {
+        width: 95%;
     }
 }
