@@ -44,65 +44,43 @@ I used [Favicon](https://favicon.io/) to create my favicon.
 
 I used [Balsamiq](https://balsamiq.com/) for my wireframes.
 
-#### Home Page
+#### Game Page
 
-![Home](/assets/images/Flavour%20Wave%20Home%20.webp)
+![Game]()
 
-#### Recipes Page
+#### Instructions Page
 
-![Recipes](/assets/images/Flavour%20Wave%20Recipes%20.webp)
-
-#### About Page
-
-![About](/assets/images/Flavour%20Wave%20About%20.webp)
-
-#### Contact Page
-
-![Contact](/assets/images/Flavour%20Wave%20Contact%20.webp)
+![Instructions]()
 
 ## Features
 
-The web game consists of one main page
+The web game consists of two main page
 
 #### All Pages on the website have:
 
--   A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is the text FlavorWave. To the right of the navigation bar are the links to the website pages (home page, recipes page, about page & contact page). When viewing on mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when navigating a site on a mobile device.
+-   A responsive design with matching header and footer elements.
 
--   A footer which contains social media icons links to Instagram and Facebook. Icons were used to keep the footer clean and because they are universally recognisable.
+-   Matched styling throughout.
+
+-   A footer which contains a link to authors Github page.
 
 ### General features on each page
 
 Each page has the same header and footer as well as theme to complete.
 
-#### Home Page
+#### Game Page
 
-![FlavorWave Home page](/assets/screenshots/home-page.jpg)
+![Game](/assets/images/screenshots/game.png)
 
-#### Recipes Page
+#### Instructions Page
 
-![FlavorWave Recipes page](/assets/screenshots/recipes-page.jpg)
-
-#### Contact Page
-
-![FlavorWave Contact page](/assets/screenshots/contact-page.jpg)
-
-#### About Page
-
-![FlavorWave About page](/assets/screenshots/about-page.jpg)
-
-#### Carbonara Page
-
-![FlavorWave Carbonara page](/assets/screenshots/carbonara-page.jpg)
-
-#### Tacos Page
-
-![FlavorWave Tacos page](/assets/screenshots/tacos-page.jpg)
+![Instructions](/assets/images/screenshots/instructions.png)
 
 ## Technologies Used
 
 ### Languages Used
 
-Languages used HTML & CSS
+Languages used HTML , CSS , JavaScript
 
 ### Frameworks, Libraries & Programs Used
 
@@ -112,11 +90,11 @@ Git - For version control.
 
 Github - To save and store the files for the website.
 
-Bootstrap Version 4.6 - The framework for the website. Code for the navigation bar, cards and form were used and modified. Additional CSS styling was also implemented in style.css.
-
 Google Dev Tools - To troubleshoot and test features and solve issues with responsiveness and styling.
 
 Fontawesome - For icons.
+
+GitHub copilot - for trouble shooting assistants.
 
 ## Deployment & Local Development
 
@@ -157,54 +135,35 @@ To clone the repository:
 
 ### Manual Testing
 
-| Feature                      | Action                             | Expected result                              | Tested | Passed | Comments |
-| ---------------------------- | ---------------------------------- | -------------------------------------------- | ------ | ------ | -------- |
-| Navbar                       |                                    |                                              |        |        |          |
-| Home                         | Click on the "Home" link           | The user is redirected to the main page      | Yes    | Yes    | -        |
-| Recipes                      | Click on the "Recipes" link        | The user is redirected to the recipes page   | Yes    | Yes    | -        |
-| About                        | Click on the "About" link          | The user is redirected to the about page     | Yes    | Yes    | -        |
-| Contact                      | Click on the "Contact" link        | The user is redirected to the contact page   | Yes    | Yes    | -        |
-| Footer                       |                                    |                                              |        |        |          |
-| Instagram icon in the footer | Click on the "Instagram" icon      | The user is redirected to the Instagram page | Yes    | Yes    | -        |
-| Facebook icon in the footer  | Click on the "Facebook" icon       | The user is redirected to the Facebook page  | Yes    | Yes    | -        |
-| Recipes Page                 |                                    |                                              |        |        |          |
-| View Recipes                 | Click on the "View recipes" button | The user is redirected to the recipe page    | Yes    | Yes    | -        |
-| Thank You page               |                                    |                                              |        |        |          |
-| Thank You Message            | Automatic redirect                 | The user is redirected automatically         | Yes    | Yes    | -        |
+| Feature        | Action                       | Expected result                             | Tested | Passed | Comments |
+| -------------- | ---------------------------- | ------------------------------------------- | ------ | ------ | -------- |
+| Start Game     | Click on start button        | Game should start                           | Yes    | Yes    | -        |
+| Stop Game      | Click on stop button         | Game should stop                            | Yes    | Yes    | -        |
+| Instructions   | Click on instructions button | The user is redirected to instructions page | Yes    | Yes    | -        |
+| Move Left      | Click on left arrow          | Basket should move left                     | Yes    | Yes    | -        |
+| Move Right     | Click on right arrow         | Basket should move right                    | Yes    | Yes    | -        |
+| Missed         | Miss a ball                  | Missed ball count should increase           | Yes    | Yes    | -        |
+| Score Increase | Catch a ball                 | Score should increase                       | Yes    | Yes    | -        |
+| LevelUp        | Score 5 balls                | The level should increase by 1              | Yes    | Yes    | -        |
+| You Win        | Complete all 10 levels       | Winner message displayed and game reset     | Yes    | Yes    | -        |
+| You Lose       | Miss 10 balls                | Loser message displayed and game reset      | Yes    | Yes    | -        |
+| Back To Game   | Click on back to game button | The user is redirected back to game         | Yes    | Yes    | -        |
 
 The site was also tested using dev tools on Google Chrome for responsiveness.
 
 Favicon does not work on live site however does work on local deployment.
 
-I was unable to test 404 page.
-
 ### LightHouse
 
 I have tested my website using lighthouse.
 
-#### Home Page
+#### Game Page
 
-![Home Page](/assets/screenshots/home-lighthouse.png)
+![Game](/assets/images/screenshots/game-lighthouse-testing.png)
 
-#### Recipes Page
+#### Instructions Page
 
-![Recipes](/assets/screenshots/recipes-lighthouse.png)
-
-#### About Page
-
-![About](/assets/screenshots/about-lighthouse.png)
-
-#### Contact Page
-
-![Contact](/assets/screenshots/contact-lighthouse.png)
-
-#### Tacos Page
-
-![Tacos](/assets/screenshots/tacos-lighthouse.png)
-
-#### Carbonara Page
-
-![Carbonara](/assets/screenshots/carbonara-lighthouse.png)
+![Instructions](/assets/images/screenshots/instructions-lighthouse-testing.png)
 
 ### Compatibility
 
@@ -212,29 +171,26 @@ Tested on [Google Chrome](https://www.google.co.uk/) for functionality , appeara
 
 ### Validator
 
-I have used [W3C](https://www.w3.org/) to validate my code.
+I have used [W3C](https://www.w3.org/) & [JSHint](https://jshint.com/)to validate my code.
 
 ### HTML
 
-![HTML](/assets/screenshots/html-w3c.png)
-
-Tested all pages.
+![HTML](/assets/images/screenshots/w3c-html.png)
 
 ### CSS
 
-![CSS](/assets/screenshots/css-val.png)
+![CSS](/assets/images/screenshots/w3c-css-1.png)
+![CSS](/assets/images/screenshots/w3c-css-2.png)
+
+### JavaScript
+
+![JavaScript](/assets/images/screenshots/jshint.png)
 
 ## Credits
 
-I have used previous projects to help with this project. First being UCD-resume to help build a form using bootstrap.
+I followed some guidance from my mentor.
 
-I also referred to bootstrap docs to learn new ways to style my page.
-
-I followed some guidance from my mentor and added a thank you page.
-
-### Media
-
-All images are sourced from [Usplash](https://unsplash.com/).
+I used AI assistance for my script.
 
 ### Acknowledgments
 
