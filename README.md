@@ -133,6 +133,12 @@ To clone the repository:
 
 ## Testing
 
+### Jest Testing
+
+I have written a testing script using jest, all the tests pass
+
+![Jest](/assets/images/screenshots/jest.png)
+
 ### Manual Testing
 
 | Feature        | Action                       | Expected result                             | Tested | Passed | Comments |
