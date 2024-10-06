@@ -44,13 +44,7 @@ I used [Favicon](https://favicon.io/) to create my favicon.
 
 I used [Balsamiq](https://balsamiq.com/) for my wireframes.
 
-#### Game Page
-
-![Game]()
-
-#### Instructions Page
-
-![Instructions]()
+![WireFrame](/assets/images/screenshots/wireframe.png)
 
 ## Features
 
@@ -63,10 +57,6 @@ The web game consists of two main page
 -   Matched styling throughout.
 
 -   A footer which contains a link to authors Github page.
-
-### General features on each page
-
-Each page has the same header and footer as well as theme to complete.
 
 #### Game Page
 
@@ -177,7 +167,7 @@ Tested on [Google Chrome](https://www.google.co.uk/) for functionality , appeara
 
 ### Validator
 
-I have used [W3C](https://www.w3.org/) & [JSHint](https://jshint.com/)to validate my code.
+I have used [W3C](https://www.w3.org/) & [JSHint](https://jshint.com/) to validate my code.
 
 ### HTML
 
@@ -186,7 +176,6 @@ I have used [W3C](https://www.w3.org/) & [JSHint](https://jshint.com/)to validat
 ### CSS
 
 ![CSS](/assets/images/screenshots/w3c-css-1.png)
-![CSS](/assets/images/screenshots/w3c-css-2.png)
 
 ### JavaScript
 
