@@ -4,7 +4,7 @@ Welcome to Catch The Ball,
 
 In this simple yet fun game, players control a character or object tasked with catching falling balls. The balls drop from the top of the screen at increasing speeds, and the player must move left or right to catch them before they hit the ground. Each successful catch earns points, while missing a ball reduces the player’s score or ends the game. The goal is to catch as many balls as possible and achieve the highest score. As the game progresses, the difficulty increases with faster ball drops!
 
-### Link to live site : [FlavorWave](https://ethanpeters96.github.io/FlavorWave/)
+### Link to live site : [CatchTheBall](https://ethanpeters96.github.io/CatchTheBall/)
 
 ## User Experience (UX)
 
@@ -100,12 +100,12 @@ GitHub copilot - for trouble shooting assistants.
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [FlavorWave](https://ethanpeters96.github.io/FlavorWave/)
+The site is deployed using GitHub Pages - [CatchTheBall](https://ethanpeters96.github.io/CatchTheBall/).
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or sign up) to Github.
-2. Go to the repository for this project, [FlavorWave](https://github.com/EthanPeters96/FlavorWave).
+2. Go to the repository for this project, [CatchTheBall](https://github.com/EthanPeters96/CatchTheBall).
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
@@ -118,7 +118,7 @@ To Deploy the site using GitHub Pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [FlavorWave](https://github.com/EthanPeters96/FlavorWave)
+2. Go to the repository for this project, [CatchTheBall](https://github.com/EthanPeters96/CatchTheBall).
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -126,7 +126,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [FlavorWave](https://github.com/EthanPeters96/FlavorWave)
+2. Go to the repository for this project, [CatchTheBall](https://github.com/EthanPeters96/CatchTheBall).
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
