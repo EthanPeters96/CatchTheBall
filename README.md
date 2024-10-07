@@ -125,7 +125,7 @@ To clone the repository:
 
 ### Jest Testing
 
-I have written a testing script using jest, all the tests pass
+I have written a testing script using jest, the test pass
 
 ![Jest](/assets/images/screenshots/jest.png)
 
@@ -146,8 +146,6 @@ I have written a testing script using jest, all the tests pass
 | Back To Game   | Click on back to game button | The user is redirected back to game         | Yes    | Yes    | -        |
 
 The site was also tested using dev tools on Google Chrome for responsiveness.
-
-Favicon does not work on live site however does work on local deployment.
 
 ### LightHouse
 
@@ -186,6 +184,8 @@ I have used [W3C](https://www.w3.org/) & [JSHint](https://jshint.com/) to valida
 I followed some guidance from my mentor.
 
 I used AI assistance for my script.
+
+I used a YouTube video from [Iammcoding](https://www.youtube.com/shorts/3lAVv33yFgI?app=desktop) for help in creating my script.
 
 ### Acknowledgments
 

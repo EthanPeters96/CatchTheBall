@@ -50,6 +50,24 @@ body {
     color: black;
 }
 
+/********* 404 styling *********/
+.error-container {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
 /********* header styling *********/
 
 .header {

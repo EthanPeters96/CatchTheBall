@@ -146,3 +146,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 requestAnimationFrame(moveBasket);
+
+module.exports = { startGame };
