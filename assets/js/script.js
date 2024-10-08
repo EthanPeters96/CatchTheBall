@@ -12,6 +12,7 @@ let basketSpeed = 3;
 let basketDirection = 0;
 let ballCreationInterval;
 let ballArray = [];
+let userName;
 
 // Basket Movement
 document.addEventListener("keydown", function (event) {
@@ -85,7 +86,14 @@ function createBall() {
 
 // Ball Generation Interval
 function startGame() {
-    ballCreationInterval = setInterval(createBall, 1000);
+    userName = prompt("Please enter your name:");
+
+    if (userName) {
+        ballCreationInterval = setInterval(createBall, 1000);
+        startButton.innerText = "Stop Game";
+    } else {
+        alert("You must enter your name to start the game.");
+    }
 }
 
 // Reset Game
@@ -138,7 +146,6 @@ document.addEventListener("DOMContentLoaded", function () {
     startButton.addEventListener("click", function () {
         if (startButton.innerText === "Start Game") {
             startGame();
-            startButton.innerText = "Stop Game"; // Change button text to "Stop Game"
         } else {
             resetGame();
             startButton.innerText = "Start Game"; // Change button text to "Start Game"
