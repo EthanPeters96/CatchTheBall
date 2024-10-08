@@ -97,3 +97,48 @@ body {
     text-decoration: none;
     font-size: 14px;
 }
+
+/********* media query *********/
+
+@media only screen and (max-width: 900px) {
+    .credits {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        top: 10%;
+        font-size: 20px;
+        position: fixed;
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        width: 30%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .instructions-list {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .error {
+        font-size: 22px;
+        text-align: center;
+        width: 95%;
+    }
+}

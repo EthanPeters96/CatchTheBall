@@ -48,7 +48,7 @@ I used [Balsamiq](https://balsamiq.com/) for my wireframes.
 
 ## Features
 
-The web game consists of two main page
+The web game consists of two main page & a 404 page.
 
 #### All Pages on the website have:
 
@@ -65,6 +65,10 @@ The web game consists of two main page
 #### Instructions Page
 
 ![Instructions](/assets/images/screenshots/instructions.png)
+
+#### 404 Page
+
+![404](/assets/images/screenshots/404.png)
 
 ## Technologies Used
 
@@ -159,6 +163,10 @@ I have tested my website using lighthouse.
 
 ![Instructions](/assets/images/screenshots/instructions-lighthouse-testing.png)
 
+#### 404 Page
+
+![404](/assets/images/screenshots/404-lighthouse-testing.png)
+
 ### Compatibility
 
 Tested on [Google Chrome](https://www.google.co.uk/) for functionality , appearance and responsiveness. All features passed.
@@ -170,6 +178,8 @@ I have used [W3C](https://www.w3.org/) & [JSHint](https://jshint.com/) to valida
 ### HTML
 
 ![HTML](/assets/images/screenshots/w3c-html.png)
+
+All HTML pages have been tested.
 
 ### CSS
 

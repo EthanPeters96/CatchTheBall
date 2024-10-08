@@ -147,4 +147,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 requestAnimationFrame(moveBasket);
 
-module.exports = { startGame };
+if (typeof module === "object") {
+    module.exports = startGame;
+}
