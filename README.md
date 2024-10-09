@@ -183,7 +183,7 @@ All HTML pages have been tested.
 
 ### CSS
 
-![CSS](/assets/images/screenshots/w3c-css-1.png)
+![CSS](/assets/images/screenshots/w3c-css.png)
 
 ### JavaScript
 
